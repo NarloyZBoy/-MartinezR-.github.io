@@ -5,6 +5,6 @@ title: R&D PROJECTS
 
 # R&D PROJECTS
 
-## 📁 [Project ZYPER](/projects/zyper.html)
+## 📁 [Project ZYPER]({{ "/projects/zyper.html" | relative_url }})
 
-## 📁 [Project PULSE](/projects/pulse.html)
+## 📁 [Project PULSE]({{ "/projects/pulse.html" | relative_url }})
