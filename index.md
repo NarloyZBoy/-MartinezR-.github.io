@@ -8,11 +8,11 @@ title: R&D Projects
 <div class="folder-container">
 
 <a href="/projects/reactor-study.html" class="folder">
-📁 Reactor Study
+📁 Project P.U.L.S.E
 </a>
 
 <a href="/projects/pulse-engine.html" class="folder">
-📁 Pulse Engine
+📁 Project "ZYPER"
 </a>
 
 </div>
