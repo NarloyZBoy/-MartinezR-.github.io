@@ -14,7 +14,6 @@
       padding: 2rem;
       text-align: center;
     }
-
     h1 {
       font-family: 'Pacifico', cursive; /* retro script font */
       font-size: 3rem;
