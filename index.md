@@ -3,8 +3,8 @@ layout: default
 title: R&D PROJECTS
 ---
 
-<h1>R&D PROJECTS</h1>
+# R&D PROJECTS
 
-<a href="/projects/zyper.html">📁 Project ZYPER</a>
-<br><br>
-<a href="/projects/pulse.html">📁 Project PULSE</a>
+## 📁 [Project ZYPER](/projects/zyper.html)
+
+## 📁 [Project PULSE](/projects/pulse.html)
