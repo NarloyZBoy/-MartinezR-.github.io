@@ -1,39 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/retro-1950s.css' | relative_url }}">
-  <style>
-    /* Quick inline example if you don't want an external CSS file */
+---
+layout: default
+title: R&D Projects
+---
 
-    body {
-      background: #ffefcc; /* pastel yellow, popular 50s color */
-      font-family: 'Courier New', Courier, monospace; /* retro font */
-      color: #800000; /* maroon color */
-      padding: 2rem;
-      text-align: center;
-    }
+# R&D PROJECTS
 
-    h1 {
-      font-family: 'Pacifico', cursive; /* retro script font */
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      color: #d6336c; /* hot pink accent */
-      text-shadow: 2px 2px #ffc107; /* a little pop */
-    }
+<div class="folder-container">
 
-    p {
-      font-size: 1.25rem;
-      max-width: 600px;
-      margin: 0 auto;
-      line-height: 1.6;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    {{ Roman Martinez }}
-  </main>
-</body>
-</html>
+<a href="/projects/reactor-study.html" class="folder">
+📁 Reactor Study
+</a>
+
+<a href="/projects/pulse-engine.html" class="folder">
+📁 Pulse Engine
+</a>
+
+</div>
