@@ -1,5 +1,15 @@
--  Projects/ Technical works presented here within.
-*    (Academic) - Academic grant/ course projects
-*    All other are personal technical projects
--  Navigate to "Projects" folder or view through website URL
--  https://narloyzboy.github.io/-MartinezR-.github.io/
+---
+layout: default
+title: R&D PROJECTS
+---
+
+# R&D PROJECTS
+
+**• Projects / Technical works presented here within**
+  - (Academic) — Academic grant / course projects  
+  - All other are personal technical projects  
+
+• Navigate to "Projects" folder or view through website URL  
+
+• https://narloyzboy.github.io/-MartinezR-.github.io/
+
