@@ -1,3 +1,3 @@
--Projects/ Technical works presented here within.
--Navigate to "Projects" folder or view through website URL
-- https://narloyzboy.github.io/-MartinezR-.github.io/
+-  Projects/ Technical works presented here within.
+-  Navigate to "Projects" folder or view through website URL
+-  https://narloyzboy.github.io/-MartinezR-.github.io/
