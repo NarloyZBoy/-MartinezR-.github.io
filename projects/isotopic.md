@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Nuclear Forensics : GNSPI
+title: Nuclear Forensics GNSPI
 ---
 
 # Global National Security Policy Institute (UNM)
