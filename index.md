@@ -12,3 +12,5 @@ title: R&D PROJECTS
 ## 📁 [Midnight Sceptre]({{ "/projects/sceptre.html" | relative_url }})
 
 ## 📁 [(Academic) Nuclear Forensics]({{ "/projects/isotopic.html" | relative_url }})
+
+## 📁 [(Academic) Thermoelectric Demonstrator Unit]({{ "/projects/thermoel.html" | relative_url }})
