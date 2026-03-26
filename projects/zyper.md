@@ -5,7 +5,8 @@ title: Project ZYPER
 
 # Project ZYPER
 
-This is the ZYPER project page.
+The goal of creating a model rocket that had a payload that would "excite" once a time of flight "(TOF)" 
+reached a certain distance is presented. Data/ construction information can be found here.
 
 ## Project Poster
 
