@@ -4,7 +4,8 @@ title: Thermoelectric Generator Demonstration Unit (TGDU)
 ---
 
 # NE568-Space Nuclear Power
-# Small physical mockup of a RTG
+## Small physical mockup of a RadioIsotope Generator "(RTG)"
+Creation of a "table top" RTG for classroom demonstration/ education. 
 
 
 images, descriptions, and files here.
