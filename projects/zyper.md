@@ -11,7 +11,7 @@ sensor reaches a certain distance is presented. Data/ construction information c
 ## Project Poster
 <style>
 img {
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
   margin-top: 20px;
   border: 3px solid #800000;
