@@ -7,6 +7,6 @@ title: Project ZYPER
 
 This is the ZYPER project page.
 
-## Image
+## Project Poster
 
-![Rocket Image]({{ "/assets/images/rocket.png" | relative_url }})
+![Rocket Image]({{ "/assets/images/zyper_post.png" | relative_url }})
