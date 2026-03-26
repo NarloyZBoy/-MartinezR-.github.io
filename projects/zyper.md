@@ -20,6 +20,6 @@ img {
 ![Rocket Image]({{ "/assets/images/zyper_post.png" | relative_url }})
 
 ## Documentation
-[View Full Report]({{ "/assets/docs/PROJ-ZYPER_PAPER_merged" | relative_url }})
+[View Preliminary Report]({{ "/assets/docs/PROJ-ZYPER_PAPER_merged" | relative_url }})
 
 ## Lessons Learned (Cont.)
