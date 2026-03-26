@@ -20,6 +20,10 @@ img {
 ![Rocket Image]({{ "/assets/images/zyper_post.png" | relative_url }})
 
 ## Documentation
-[View Preliminary Report]({{ "/assets/docs/PROJ-ZYPER_PAPER_merged" | relative_url }})
+<h2>Preliminary Report</h2>
 
+<iframe src="{{ '/assets/docs/PROJ-ZYPER_PAPER_merged.pdf' | relative_url }}" 
+        width="100%" 
+        height="600px">
+</iframe>
 ## Lessons Learned (Cont.)
