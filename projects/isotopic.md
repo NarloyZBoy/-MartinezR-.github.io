@@ -21,7 +21,7 @@ img {
 ![Presentation Image3]({{ "/assets/images/gnspi_pres3.png" | relative_url }})
 ## GNSPI Report
 Document not uploaded/ published. Internal to UNM. Code presented in Appendices is not complete code used in report(applies only to PyNe). 
-<h2>Preliminary Report</h2>
+<h2>GNSPI Report</h2>
 
 <iframe src="{{ '/assets/docs/GNSPI_Martinez_R_FinalDraft.pdf' | relative_url }}" 
         width="100%" 
