@@ -16,9 +16,9 @@ img {
   border: 3px solid #800000;
 }
 </style>
-![Presenatation Image 1]({{ "/assets/images/gnspi_pres1.png" | relative_url }})
-![Presenatation Image 2]({{ "/assets/images/gnspi_pres2.png" | relative_url }})
-![Presenatation Image 3]({{ "/assets/images/gnspi_pres3.png" | relative_url }})
+![Presenatation Image 1]({{ "/assets/images/gnspi_pres1.JPEG" | relative_url }})
+![Presenatation Image 2]({{ "/assets/images/gnspi_pres2.JPEG" | relative_url }})
+![Presenatation Image 3]({{ "/assets/images/gnspi_pres3.JPEG" | relative_url }})
 ## GNSPI Report
 Document not uploaded/ published. Internal to UNM. Code presented in Appendices is not complete code used in report(applies only to PyNe). 
 <h2>GNSPI Report</h2>
