@@ -17,4 +17,16 @@ Updated 8/16/26 with Final Paper and Images of class table demo.
 <iframe src="{{ '/assets/docs/NE568_Final_ProjPaper (1).pdf' | relative_url }}" 
         width="80%" 
         height="600px">
+        <style>
+img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+  border: 3px solid #800000;
+}
+</style>
+![Presenatation Image 1]({{ "/assets/images/" | relative_url }})
+![Presenatation Image 2]({{ "/assets/images/" | relative_url }})
+![Devlopement Image 3]({{ "/assets/images/" | relative_url }})
+![Developement Image 3]({{ "/assets/images/" | relative_url }})
 </iframe>
