@@ -14,6 +14,7 @@ Updated 8/16/26 with Final Paper and Images of class table demo.
         width="80%" 
         height="600px">
 <h2>Project Final Paper</h2>
+        
 <iframe src="{{ '/assets/docs/NE568_Final_ProjPaper (1).pdf' | relative_url }}" 
         width="80%" 
         height="600px">
@@ -24,6 +25,7 @@ img {
   margin-top: 20px;
   border: 3px solid #800000;
 }
+                
 </style>
 ![Presenatation Image 1]({{ "/assets/images/NE568_IMG3.jfif" | relative_url }})
 ![Presenatation Image 2]({{ "/assets/images/NE568_IMG4.jfif" | relative_url }})
