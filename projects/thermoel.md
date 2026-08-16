@@ -30,6 +30,6 @@ img {
 </style>
 
 ![Presentation Image 1]({{ "/assets/images/NE568_IMG3.jpeg" | relative_url }})
-![Presentation Image 2]({{ "/assets/images/NE568_IMG4.jpeg" | relative_url }})
-![Development Image 3]({{ "/assets/images/NE568_IMG1.jpeg" | relative_url }})
+![Presentation Image 2]({{ "/assets/images/NE568_IMG4.JPEG" | relative_url }})
+![Development Image 3]({{ "/assets/images/NE568_IMG1.JPEG" | relative_url }})
 ![Development Image 4]({{ "/assets/images/NE568_IMG2.jpeg" | relative_url }})
