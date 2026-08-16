@@ -25,8 +25,8 @@ img {
   border: 3px solid #800000;
 }
 </style>
-![Presenatation Image 1]({{ "/assets/images/" | relative_url }})
-![Presenatation Image 2]({{ "/assets/images/" | relative_url }})
-![Devlopement Image 3]({{ "/assets/images/" | relative_url }})
-![Developement Image 3]({{ "/assets/images/" | relative_url }})
+![Presenatation Image 1]({{ "/assets/images/NE568_IMG3.jfif" | relative_url }})
+![Presenatation Image 2]({{ "/assets/images/NE568_IMG4.jfif" | relative_url }})
+![Devlopement Image 3]({{ "/assets/images/NE568_IMG1.jfif" | relative_url }})
+![Developement Image 3]({{ "/assets/images/NE568_IMG2.jfif" | relative_url }})
 </iframe>
