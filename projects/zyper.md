@@ -8,6 +8,8 @@ title: Project ZYPER
 The goal of creating a model rocket that had a payload that would "excite" once a time of flight "(TOF)" 
 sensor reaches a certain distance is presented. Data/ construction information can be found here.
 
+UPDATE [8/16/26]: Certain sections have been omitted from the report. Data, tables, code, and 3D models to be uploaded.
+
 ## Project Poster
 <style>
 img {
