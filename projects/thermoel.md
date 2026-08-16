@@ -13,7 +13,7 @@ Updated 8/16/26 with Final Paper and Images of class table demo.
 <iframe src="{{ '/assets/docs/NE568_PRJ_Mod2.pdf' | relative_url }}" 
         width="80%" 
         height="600px">
-<h2>Project Proposal</h2>
+<h2>Project Final Paper</h2>
 <iframe src="{{ '/assets/docs/NE568_Final_ProjPaper (1).pdf' | relative_url }}" 
         width="80%" 
         height="600px">
