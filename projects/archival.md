@@ -5,38 +5,32 @@ title: Archival
 permalink: /archival/
 ---
 
+<div class="archive-page">
+
 # ARCHIVAL
 
-Welcome to the R&D project archive.
-
-## Archived Documents
+<p class="archive-intro">Research documents and technical records.</p>
 
 <div class="document-gallery">
-
-  <div class="document-card">
-    <div class="document-preview">
-      <iframe src="{{ '/assets/docs/2025SDP_Poster.pdf' | relative_url }}"
-              title="2025 SDP Poster"></iframe>
-    </div>
-    <div class="document-info">
-      <h3>2025 SDP Poster</h3>
-      <p>Project poster and research overview.</p>
-      <a href="{{ '/assets/docs/2025SDP_Poster.pdf' | relative_url }}"
-         target="_blank" rel="noopener">View Document ↗</a>
-    </div>
-  </div>
-
-  <div class="document-card">
-    <div class="document-preview">
-      <iframe src="{{ '/assets/docs/NE568_PRI_Mod2.pdf' | relative_url }}"
-              title="NE568 document"></iframe>
-    </div>
-    <div class="document-info">
-      <h3>NE568 — PRI Mod 2</h3>
-      <p>Technical documentation.</p>
-      <a href="{{ '/assets/docs/NE568_PRI_Mod2.pdf' | relative_url }}"
-         target="_blank" rel="noopener">View Document ↗</a>
-    </div>
-  </div>
+  <article class="document-card">
+    <a class="pdf-thumbnail"
+       href="{{ '/assets/docs/2025SDP_Poster.pdf' | relative_url }}"
+       target="_blank"
+       rel="noopener"
+       aria-label="Open the 2025 SDP Poster PDF">
+      <iframe
+        src="{{ '/assets/docs/2025SDP_Poster.pdf' | relative_url }}#toolbar=0&navpanes=0"
+        title="2025 SDP Poster preview"
+        loading="lazy">
+      </iframe>
+    </a>
+    <h2>2025 SDP Poster</h2>
+    <p>Project poster and research overview.</p>
+    <a class="view-document"
+       href="{{ '/assets/docs/2025SDP_Poster.pdf' | relative_url }}"
+       target="_blank"
+       rel="noopener">Open PDF ↗</a>
+  </article>
+</div>
 
 </div>
