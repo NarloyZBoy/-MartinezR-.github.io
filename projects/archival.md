@@ -2,10 +2,7 @@
 ---
 layout: archive
 title: Archival
-permalink: /archival/
 ---
-
-# ARCHIVAL
 
 <p class="archive-intro">
   Research documents and technical records.
