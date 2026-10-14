@@ -1,23 +1,104 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>{{ page.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
 
-<style>
-body {
-  background-color: #ffefcc;
-  font-family: Courier New, monospace;
-  color: #800000;
-  padding: 2rem;
-}
-</style>
+  <style>
+    body {
+      background-color: #ffefcc;
+      font-family: "Courier New", monospace;
+      color: #800000;
+      margin: 0;
+      padding: 2rem;
+    }
 
+    .site-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(220px, 1fr);
+      gap: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .main-content {
+      min-width: 0;
+    }
+
+    .archive-panel {
+      border-left: 3px solid #800000;
+      padding: 1rem 1.5rem;
+      min-height: 70vh;
+    }
+
+    .archive-panel h2 {
+      font-size: 1.8rem;
+      margin-top: 0;
+      color: #800000;
+    }
+
+    .archive-link {
+      display: block;
+      background: #ffd966;
+      border: 2px solid #800000;
+      padding: 1rem;
+      margin: 1rem 0;
+      color: #800000;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .archive-link:hover {
+      background: #ffc107;
+    }
+
+    a {
+      color: #4b0082;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 1rem;
+      }
+
+      .site-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .archive-panel {
+        border-left: none;
+        border-top: 3px solid #800000;
+        padding: 1rem 0;
+        min-height: auto;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <div class="site-layout">
+    <main class="main-content">
+      {{ content }}
+    </main>
 
-{{ content }}
+    <aside class="archive-panel">
+      <h2>Archival</h2>
+      <p>Past projects and technical records.</p>
 
+      <a class="archive-link"
+         href="{{ '/archival/' | relative_url }}">
+        📁 Browse Archive
+      </a>
+    </aside>
+  </div>
 </body>
 </html>
+```
