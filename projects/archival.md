@@ -2,7 +2,7 @@
 ---
 layout: default
 title: Archival
-permalink: /archival/
+
 ---
 
 # ARCHIVAL
