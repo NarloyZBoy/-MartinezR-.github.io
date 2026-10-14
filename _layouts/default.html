@@ -181,13 +181,13 @@
 
     </aside>
     
-<aside class="archive-panel">
-  <h2>Archival</h2>
-  <p>Past projects and technical records.</p>
-  <a class="archive-link"
-     href="{{ '/archival/' | relative_url }}">
-    📁 Browse Archive
-  </a>
+
+{% unless page.title == "Archival" %}
+  <aside class="archive-panel">
+    <!-- Keep your existing archive panel content here -->
+  </aside>
+{% endunless %}
+
 </aside>
 
   </div>
