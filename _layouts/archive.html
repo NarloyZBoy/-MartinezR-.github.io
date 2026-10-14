@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px;
+      background: #ffefcc;
+      color: #800000;
+      font-family: "Courier New", monospace;
+    }
+
+    .archive-page {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .archive-page h1 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+    }
+
+    .archive-intro {
+      margin: 0 0 30px;
+      line-height: 1.6;
+    }
+
+    .document-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 280px);
+      gap: 24px;
+    }
+
+    .document-card {
+      overflow: hidden;
+      border: 1px solid #702d43;
+      border-radius: 6px;
+      background: #fff8e8;
+      box-shadow: 0 4px 12px rgba(80, 35, 45, 0.12);
+      transition: transform 0.2s ease;
+    }
+
+    .document-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .pdf-thumbnail {
+      display: block;
+      height: 350px;
+      overflow: hidden;
+      background: #e8dfcf;
+      border-bottom: 1px solid #702d43;
+    }
+
+    .pdf-thumbnail iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      pointer-events: none;
+    }
+
+    .document-info {
+      padding: 16px;
+    }
+
+    .document-info h2 {
+      margin: 0 0 10px;
+      font-size: 1.1rem;
+    }
+
+    .document-info p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .view-document {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 9px 12px;
+      border: 1px solid #702d43;
+      border-radius: 4px;
+      color: #702d43;
+      text-decoration: none;
+    }
+
+    .view-document:hover {
+      background: #702d43;
+      color: #fff8e8;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #702d43;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+
+      .document-gallery {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .document-card {
+        max-width: 360px;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="archive-page">
+    {{ content }}
+
+    <a class="back-link"
+       href="{{ '/' | relative_url }}">
+      ← Back to Home
+    </a>
+  </main>
+</body>
+</html>
